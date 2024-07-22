@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "Node16",
+    "declaration": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node16",
+    "outDir": "./build",
+    "experimentalDecorators": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "files": ["src/@types/index.d.ts", "src/@types/env.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts"]
+}
